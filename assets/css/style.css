@@ -81,6 +81,12 @@ body {
   border-radius: 0 30px 30px 0;
 }
 
+.pruebadeimagen__thumbnail {
+  border: 0.3px solid #D1D1D1;
+  border-radius: 50%;
+  height: 140px;
+}
+
 .blog-footer {
   display: flex;
   align-items: center;
