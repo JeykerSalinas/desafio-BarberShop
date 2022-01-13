@@ -2,7 +2,32 @@ body * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: greenyellow;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.blog-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #121619;
+  height: 206px;
+}
+@media screen and (min-width: 768px) {
+  .blog-footer {
+    height: 169px;
+  }
+}
+.blog-footer__logo {
+  width: 81px;
+  height: auto px;
+}
+@media screen and (min-width: 768px) {
+  .blog-footer__logo {
+    width: 122px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

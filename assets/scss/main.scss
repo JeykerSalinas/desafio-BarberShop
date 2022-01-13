@@ -3,10 +3,18 @@
 // Abstract
 @import "abstract/abstract";
 
+// Variables
+@import "abstract/variables";
+
 // Base
 @import "base/reset";
 
+//Typography
+
+@import "base/typography";
+
 // Components
 
-
 // Layout
+@import "layout/footer";
+
