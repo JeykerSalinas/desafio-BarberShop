@@ -1,0 +1,21 @@
+.content{
+    padding: 50px;
+    background-color: $color-white;
+    color: #707070;
+    &__date{
+        font-family: $ff-playfair;
+        padding-bottom: 50px;
+    }
+
+    &__text{
+        font-family: $ff-roboto;
+        line-height: 3;
+    }
+
+}
+
+.content-buttons{
+    display: flex;
+    justify-content:space-around;
+    margin: 50px 0px;
+}
