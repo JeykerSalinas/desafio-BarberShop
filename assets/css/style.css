@@ -37,6 +37,26 @@ body {
   border: 3px solid #D1D1D1;
 }
 
+.link-primary {
+  text-decoration: none;
+  color: #D76C69;
+}
+.link-primary:hover {
+  color: #222323;
+}
+.link-primary:hover:active {
+  color: #E6E7E7;
+}
+.link-secondary {
+  color: #222323;
+}
+.link-ligth {
+  color: #D1D1D1;
+}
+.link-dark {
+  color: #121619;
+}
+
 .blog-footer {
   display: flex;
   align-items: center;
