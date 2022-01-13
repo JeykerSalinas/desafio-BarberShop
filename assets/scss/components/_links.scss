@@ -1,6 +1,6 @@
 
 .link{
-    &-primary{
+    &--primary{
         text-decoration: none;
         color: $color-ruddy-pink;
         &:hover{
@@ -10,13 +10,13 @@
         }            
         }
     }
-    &-secondary{
+    &--secondary{
         color: $color-raisin-black;
     }
-    &-ligth{
+    &--ligth{
         color: $color-ligth-grey;
     }
-    &-dark{
+    &--dark{
         color: $color-eerie-black;
     }
 

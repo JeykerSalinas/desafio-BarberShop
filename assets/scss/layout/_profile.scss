@@ -1,0 +1,13 @@
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 365px;
+    border: solid 0.3px #707070;
+    &__name{
+        width: 75vw;
+        font: italic normal 900 $fz-x-large $ff-playfair;
+        text-align: center;
+    }
+}

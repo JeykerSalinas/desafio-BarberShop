@@ -28,23 +28,23 @@ body {
   width: 182px;
 }
 
-.link-primary {
+.link--primary {
   text-decoration: none;
   color: #D76C69;
 }
-.link-primary:hover {
+.link--primary:hover {
   color: #222323;
 }
-.link-primary:hover:active {
+.link--primary:hover:active {
   color: #E6E7E7;
 }
-.link-secondary {
+.link--secondary {
   color: #222323;
 }
-.link-ligth {
+.link--ligth {
   color: #D1D1D1;
 }
-.link-dark {
+.link--dark {
   color: #121619;
 }
 
@@ -72,10 +72,15 @@ body {
   border-radius: 0 30px 30px 0;
 }
 
-.pruebadeimagen__thumbnail {
+.thumbnail {
   border: 0.3px solid #D1D1D1;
   border-radius: 50%;
-  height: 140px;
+  height: 130px;
+}
+@media (min-width: 992px) {
+  .thumbnail {
+    height: 140px;
+  }
 }
 
 .blog-footer {
@@ -153,11 +158,25 @@ body {
 .content-buttons {
   display: flex;
   justify-content: space-around;
-  margin: 50px 0px;
+  margin-top: 50px;
 }
 
 .pagination {
   background-color: #1216191A;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 365px;
+  border: solid 0.3px #707070;
+}
+.profile__name {
+  width: 75vw;
+  font: italic normal 900 30px "Playfair Display", serif;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
