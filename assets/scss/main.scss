@@ -5,6 +5,8 @@
 
 // Variables
 @import "abstract/variables";
+//Mixins
+@import "abstract/mixins";
 
 // Base
 @import "base/reset";
@@ -14,7 +16,7 @@
 @import "base/typography";
 
 // Components
-
+@import "components/buttons";
 // Layout
 @import "layout/footer";
 

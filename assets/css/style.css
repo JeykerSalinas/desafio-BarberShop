@@ -8,6 +8,35 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.button-small {
+  width: 115px;
+  height: 51px;
+  background-color: #1216199E;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+}
+.button-small:hover {
+  background-color: #D1D1D1;
+}
+.button-small:focus {
+  border: 3px solid #D1D1D1;
+}
+.button-medium {
+  width: 182px;
+  height: 51px;
+  background-color: #1216199E;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+}
+.button-medium:hover {
+  background-color: #D1D1D1;
+}
+.button-medium:focus {
+  border: 3px solid #D1D1D1;
+}
+
 .blog-footer {
   display: flex;
   align-items: center;

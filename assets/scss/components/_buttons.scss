@@ -1,1 +1,25 @@
 
+.button{
+    &-small{
+        width: 115px;
+        height: 51px;
+        background-color: #1216199E;
+        border: none;
+        border-radius: 30px;
+        color: $color-white;
+        @include button-state;
+    }   
+
+    &-medium{
+        width: 182px;
+        height: 51px;
+        background-color: #1216199E;
+        border: none;
+        border-radius: 30px;
+        color: $color-white;
+        @include button-state;
+    }
+
+}
+
+// link
