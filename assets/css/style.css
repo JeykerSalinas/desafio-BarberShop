@@ -57,6 +57,30 @@ body {
   color: #121619;
 }
 
+.paginationbar {
+  display: flex;
+  justify-content: center;
+}
+.paginationbar__navbar ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 20px;
+  height: 40px;
+}
+.paginationbar__navbar ul li {
+  border: solid 1px #D1D1D1;
+  padding: 15px;
+}
+.paginationbar__navbar ul li:first-child {
+  border-radius: 30px 0 0 30px;
+}
+.paginationbar__navbar ul li:last-child {
+  border-radius: 0 30px 30px 0;
+}
+
 .blog-footer {
   display: flex;
   align-items: center;
