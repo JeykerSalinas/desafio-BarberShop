@@ -109,4 +109,20 @@ body {
   }
 }
 
+.blog-nav__collapse {
+  background-color: #121619;
+}
+.blog-nav__sandwich {
+  color: white;
+}
+.blog-nav__logo {
+  height: 34px;
+  margin-left: 50px;
+}
+.blog-nav__navbar {
+  height: 96px;
+  background-color: #121619;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
