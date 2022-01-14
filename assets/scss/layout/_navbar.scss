@@ -1,13 +1,5 @@
 // comenzar a fabricar los estilos desde tablet
 .blog-nav {
-
- &__collapse{
-     background-color: $color-eerie-black;
-
- }
-  &__sandwich {
-    color: white;
-  }
   &__logo {
     height: 34px;
     margin-left: 50px;
@@ -17,5 +9,30 @@
     height: 96px;
     background-color: $color-eerie-black;
     color: white;
+  }
+  
+  &__icon {
+    border: none;
+    margin-right: 50px;
+  }
+  
+  &__collapse{
+    background-color: $color-eerie-black;
+    padding-left: 50px;
+
+  }
+}
+
+.nav-link{
+  color: $color-ligth-grey;
+  &:active {
+    color:$color-white;
+  }      
+  &:hover{
+    color:#DE8684;
+  }
+  &:focus{
+    color: $color-white;
+    
   }
 }

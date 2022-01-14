@@ -35,7 +35,7 @@ body {
 .link--primary:hover {
   color: #222323;
 }
-.link--primary:hover:active {
+.link--primary:active {
   color: #E6E7E7;
 }
 .link--secondary {
@@ -43,6 +43,12 @@ body {
 }
 .link--ligth {
   color: #D1D1D1;
+}
+.link--ligth:hover {
+  color: #fff;
+}
+.link--ligth:active {
+  color: #D76C69;
 }
 .link--dark {
   color: #121619;
@@ -105,12 +111,6 @@ body {
   }
 }
 
-.blog-nav__collapse {
-  background-color: #121619;
-}
-.blog-nav__sandwich {
-  color: white;
-}
 .blog-nav__logo {
   height: 34px;
   margin-left: 50px;
@@ -120,10 +120,32 @@ body {
   background-color: #121619;
   color: white;
 }
+.blog-nav__icon {
+  border: none;
+  margin-right: 50px;
+}
+.blog-nav__collapse {
+  background-color: #121619;
+  padding-left: 50px;
+}
+
+.nav-link {
+  color: #D1D1D1;
+}
+.nav-link:active {
+  color: #fff;
+}
+.nav-link:hover {
+  color: #DE8684;
+}
+.nav-link:focus {
+  color: #fff;
+}
 
 .hero-section {
-  background-color: #121619;
   background-image: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   height: 640px;
   display: flex;
@@ -161,10 +183,6 @@ body {
   margin-top: 50px;
 }
 
-.pagination {
-  background-color: #1216191A;
-}
-
 .profile {
   display: flex;
   flex-direction: column;
@@ -177,6 +195,18 @@ body {
   width: 75vw;
   font: italic normal 900 30px "Playfair Display", serif;
   text-align: center;
+}
+
+.pages-bar {
+  height: 156px;
+  background-color: #1216191a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  border-radius: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

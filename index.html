@@ -14,30 +14,32 @@
 </head>
 <body>
 <section class="blog-nav">
-    <nav class="blog-nav__navbar navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid p-0">
+    <nav class="blog-nav__navbar navbar navbar-expand-lg">
+        <div class="container-fluid p-0 blog-nav__container">
           <a class=" navbar-brand" href="#">
               <img class="blog-nav__logo" src="./assets/img/logo.png" alt="" class="d-inline-block">
           </a>
-          <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon blog-nav__sandwich"></span>
+          <button class="navbar-toggler text-white blog-nav__icon" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <svg xmlns="http://www.w3.org/2000/svg"  width="34" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+              </svg>
           </button>
-          <div class="collapse navbar-collapse blog-nav__collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse blog-nav__collapse ms-auto" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
+                <a class=" nav-item nav-link active" aria-current="page" href="#">Nosotros</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Trabajos</a>
+                <a class="nav-link link link--ligth" href="#">Trabajos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
+                <a class="nav-link link link--ligth" href="#">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Horas</a>
+                <a class="nav-link link link--ligth" href="#">Horas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link link link--ligth" href="#">Contacto</a>
               </li>
               
             </ul>
@@ -47,10 +49,15 @@
       </nav>
 </section>
 
+
 <section class="hero-section">
     <!-- <img src="./assets/img/post-image.jpg" alt=""> -->
     <h1 class="hero-section__title">5 formas de cuidar tu corte de cabelo</h1>
-    <i class="fas fa-angle-double-down hero-section__drop-icon"></i>
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-double-down" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1.646 6.646a.5.5 0 0 1 .708 0L8 12.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+      <path fill-rule="evenodd" d="M1.646 2.646a.5.5 0 0 1 .708 0L8 8.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+    </svg>
+    
 </section>
 
 <section class="content">
@@ -90,17 +97,19 @@
 
 
 </section>
-<section class="paginationbar">
-    <div class="paginationbar__navbar" >
-  <ul class="" >
-    <li class="" href="#">Previous</a></li>
-    <li class="" href="#">1</a></li>
-    <li class="" href="#">2</a></li>
-    <li class="" href="#">3</a></li>
-    <li class="" href="#">Next</a></li>
-  </ul>
-    </div>
+<section class="pages-bar">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination">
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+    </ul>
+  </nav>   
 </section>
+
+
 <footer class="blog-footer">
     <img src="./assets/img/logo.png" alt="" >
 </footer>
