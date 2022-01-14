@@ -5,20 +5,20 @@
   background-position: center;
 
   height: 640px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: $color-white;
-  flex-direction: column;
+
 
   &__title {
-    width: 75vw;
     font: italic normal 900 40px/53px $ff-playfair;
-    text-align: center;
+    @media (min-width:992px ) {
+      font-size: $fz-xx-large;
+      line-height: 80px;
+  }
+
+
   }
 
   &__drop-icon {
     color: $color-white;
-
   }
 }

@@ -85,7 +85,7 @@ body {
 }
 @media (min-width: 992px) {
   .thumbnail {
-    height: 140px;
+    height: 180px;
   }
 }
 
@@ -135,11 +135,8 @@ body {
 .nav-link:active {
   color: #fff;
 }
-.nav-link:hover {
-  color: #DE8684;
-}
-.nav-link:focus {
-  color: #fff;
+.nav-link:hover, .nav-link:focus {
+  color: #de8684;
 }
 
 .hero-section {
@@ -148,16 +145,16 @@ body {
   background-size: cover;
   background-position: center;
   height: 640px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #fff;
-  flex-direction: column;
 }
 .hero-section__title {
-  width: 75vw;
   font: italic normal 900 40px/53px "Playfair Display", serif;
-  text-align: center;
+}
+@media (min-width: 992px) {
+  .hero-section__title {
+    font-size: 70px;
+    line-height: 80px;
+  }
 }
 .hero-section__drop-icon {
   color: #fff;
@@ -176,11 +173,24 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 3;
 }
+@media (min-width: 992px) {
+  .content {
+    padding: 100px;
+  }
+}
 
 .content-buttons {
   display: flex;
   justify-content: space-around;
   margin-top: 50px;
+}
+@media (min-width: 992px) {
+  .content-buttons {
+    justify-content: start;
+  }
+  .content-buttons :last-child {
+    margin-left: 10px;
+  }
 }
 
 .profile {
@@ -192,9 +202,21 @@ body {
   border: solid 0.3px #707070;
 }
 .profile__name {
-  width: 75vw;
   font: italic normal 900 30px "Playfair Display", serif;
-  text-align: center;
+}
+.profile__text {
+  width: 617px;
+  color: #707070;
+  line-height: 40px;
+  font-size: 12px;
+}
+@media (min-width: 992px) {
+  .profile {
+    flex-direction: row;
+    justify-content: space-between;
+    max-height: 330px;
+    padding: 0 100px 0 100px;
+  }
 }
 
 .pages-bar {

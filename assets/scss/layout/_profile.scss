@@ -6,8 +6,23 @@
     height: 365px;
     border: solid 0.3px #707070;
     &__name{
-        width: 75vw;
         font: italic normal 900 $fz-x-large $ff-playfair;
-        text-align: center;
     }
-}
+    
+    &__text{
+        width: 617px;
+        color: #707070;
+        line-height: 40px;
+        font-size: $fz-small;
+
+    }
+    @media (min-width:992px ) {
+        flex-direction: row;
+        justify-content: space-between;
+        max-height: 330px;
+        padding: 0 100px 0 100px ;
+        
+        }
+
+    }
+  
