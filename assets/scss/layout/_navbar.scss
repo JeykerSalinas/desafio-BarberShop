@@ -24,11 +24,8 @@
 
 .nav-link {
   color: $color-ligth-grey;
-  &:active {
-    color: $color-white;
-  }
-  &:hover,
-  &:focus {
+  &:focus, &:hover{
     color: #de8684;
   }
+  
 }
